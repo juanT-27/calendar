@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calendar noteBook</title>
+</head>
+
+<body>
+    <div class="calendarContainer">
+        <form action="" id="calendar">
+            <select name="monthList" id="monthList">
+                <option value="0">January</option>
+                <option value="1">February</option>
+                <option value="2">March</option>
+                <option value="3">April</option>
+                <option value="4">May</option>
+                <option value="5">June</option>
+                <option value="6">July</option>
+                <option value="7">August</option>
+                <option value="8">September</option>
+                <option value="9">October</option>
+                <option value="10">November</option>
+                <option value="11">December</option>
+            </select>
+            <input type="number" name="yearInput" id="yearInput" maxlength="4" minlength="4" value="2024">
+            <input type="submit" value="Search">
+        </form>
+        <header>
+            <h1 class="monthTitle">January</h1>
+            <h2 class="yearTitle">2024</h2>
+        </header>
+
+        <ul class="days">
+            <li>Mon</li>
+            <li>Tue</li>
+            <li>Wen</li>
+            <li>Thur</li>
+            <li>Fri</li>
+            <li>Sat</li>
+            <li>Sun</li>
+        </ul>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
